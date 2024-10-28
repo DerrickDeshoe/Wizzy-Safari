@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Lora;
+    src: url(../app/fonts/Lora-Regular.ttf);
+}
+
+@font-face {
+    font-family: LoraBold;
+    src: url(../app/fonts/Lora-Bold.ttf);
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(../app/fonts/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: MulishSemiBold;
+    src: url(../app/fonts/Mulish-SemiBold.ttf);
+}
