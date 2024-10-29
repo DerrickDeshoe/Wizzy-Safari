@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import Wizzy from "../Components/Wizzy";
 import Wizzy2 from "../Components/Wizzy2";
@@ -9,6 +11,8 @@ import Image from "next/image";
 import Zebra from "../../public/Images/AboutPage/Zebra.svg";
 import Zebra2 from "../../public/Images/AboutPage/Zebra2.png";
 import Link from "next/link";
+import TabNavigtaion from "../Components/TabNavigation";
+import PhoneTab from "../Components/PhoneTab";
 
 const AboutUs = () => {
   return (
@@ -22,9 +26,10 @@ const AboutUs = () => {
             Discover the Land of a Thousand Hills
           </p>
         </div>
-        <div className="bg-contact bg-cover bg-no-repeat h-[80vh]">
-
+        <div className=" absolute bottom-[-40px] left-[14%] w-[70%]">
+          {/* <TabNavigtaion color="white" /> */}
         </div>
+        <div className="bg-contact bg-cover bg-no-repeat h-[80vh]"></div>
         {/* <Image
           src={Zebra2}
           alt="image"

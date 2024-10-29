@@ -23,6 +23,8 @@ import Welma from '../public/Images/HomePage/Welma.svg';
 import Lucy from '../public/Images/HomePage/EE.png';
 import Bianca from '../public/Images/HomePage/BB.png';
 import TabNavigtaion from './Components/TabNavigation';
+import PhoneTab from './Components/PhoneTab';
+
 
 export default function Home() {
   return (
@@ -41,6 +43,9 @@ export default function Home() {
           <Image src={Left} alt="image" className="w-[10%]" />
           <Image src={Right} alt="image" className="w-[10%]" />
         </div>
+        <div className=" absolute bottom-[-40px] left-[8%] w-[85%]">
+           <PhoneTab color="green"/>
+        </div>
       </div>
 
       {/* Laptop Version Landing Page*/}
@@ -55,16 +60,16 @@ export default function Home() {
               Discover the Land of a Thousand Hills
             </p>
           </div>
-          <div className="flex justify-between lg:px-[8%] p-5">
+          <div className="flex justify-between lg:px-[8%] p-5 relative">
             <Image src={Left} alt="image" className="w-[10%] lg:w-[5%]" />
             <Image src={Right} alt="image" className="w-[10%] lg:w-[5%]" />
           </div>
-          <div className="lg:w-[70%] flex justify-center">
-           {/* <TabNavigtaion/> */}
+          <div className=" absolute bottom-[-40px] left-[14%] w-[70%]">
+           <TabNavigtaion color="green"/>
           </div>
         </div>
         <div className="bg-white px-5 py-10 lg:space-y-[5%] ">
-          <div className="flex flex-col text-center items-center space-y-3 font-loraBold lg:py-5">
+          <div className="flex flex-col text-center items-center space-y-3 font-loraBold py-5 lg:pt-[5%] lg:pb-[1%]">
             <h4 className="text-brown lg:text-2xl ">Choose your package</h4>
             <h3 className=" text-2xl lg:text-4xl w-[90%] lg:w-[45%] xl:w-[35%]">
               Select your Best Package for your Travel

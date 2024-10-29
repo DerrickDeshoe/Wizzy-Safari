@@ -65,8 +65,8 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <div className="p-5 flex justify-center">
-        <div className="border border-grayish p-3 flex flex-col space-y-3 rounded-lg lg:w-[50%]">
+      <div className="p-5 flex justify-center w-[100%]">
+        <div className="border border-grayish p-3 flex flex-col space-y-3 rounded-lg w-[100%] lg:w-[50%]">
           <h5 className="font-loraBold lg:text-2xl">Contact Us</h5>
           <div className="flex justify-between">
             <div className="flex flex-col  w-[48%] space-y-2">

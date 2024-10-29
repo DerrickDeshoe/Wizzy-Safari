@@ -13,7 +13,7 @@ import LandingInfo from "../Components/LandingInfo";
 const TourPackage = () => {
   return (
     <div className="">
-      <div className=" flex justify-center items-center bg-tour bg-[80% 90%] bg-no-repeat h-[80vh] w-screen">
+      <div className=" flex justify-center items-center bg-tour bg-[80% 90%] bg-no-repeat h-[80vh] w-[100%]">
         <LandingInfo h1='Tour Package' pageName2='Tour Package'/>
       </div>
       <div className="flex flex-col text-center items-center space-y-3 font-loraBold lg:py-5">

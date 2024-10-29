@@ -31,7 +31,7 @@ import Hut2 from '../../public/Images/GalleryPage/Hut2.svg';
 const Gallery = () => {
   return (
     <div>
-      <div className="bg-gallery bg-cover bg-no-repeat h-[70vh] w-screen flex justify-center items-center">
+      <div className="bg-gallery bg-cover bg-no-repeat h-[70vh] w-[100%] flex justify-center items-center">
         <LandingInfo h1="Gallery" pageName2="Gallery" />
       </div>
       <div>
