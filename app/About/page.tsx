@@ -14,6 +14,7 @@ import Link from "next/link";
 import TabNavigtaion from "../Components/TabNavigation";
 import PhoneTab from "../Components/PhoneTab";
 
+
 const AboutUs = () => {
   return (
     <div className="lg:space-y-5">

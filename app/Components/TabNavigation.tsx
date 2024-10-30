@@ -111,7 +111,7 @@ const TabNavigation = (props: Background) => {
           </div>
           {showPackageDropdown && (
             <div className="absolute mt-2 w-60 bg-white shadow-lg rounded-md p-2 text-sm">
-              {["Bisoke Hike", "Lake Kiva Trip", "Akagera National Park"].map(
+              {[ "Nyanza", "Bisoke Hike", "Gisenyi Trip", "Lake Kivu Trip",  "Akagera National Park", "Nyungwe National Park"].map(
                 (option) => (
                   <p
                     key={option}
