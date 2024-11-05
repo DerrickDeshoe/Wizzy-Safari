@@ -10,7 +10,7 @@ interface Testimonies {
 
 const Testimonials = (props: Testimonies) => {
   return (
-    <div className="flex flex-col w-[90%] lg:w-[20%] border border-outline space-y-4 p-5">
+    <div className="flex flex-col w-[90%] lg:w-[90%] border-2 border-outline space-y-4 p-5">
       <div className=" flex flex-col items-center space-y-4">
         <div className="border-4 border-green rounded-[50%] p-2">
           <Image src={props.image} alt="image" className="" />

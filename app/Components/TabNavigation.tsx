@@ -51,7 +51,7 @@ const TabNavigation = (props: Background) => {
               {["1 Adult", "2 Adults", "3 Adults", "4 Adults"].map((option) => (
                 <p
                   key={option}
-                  className="text-gray-700 hover:bg-gray-100 p-1 rounded cursor-pointer"
+                  className="text-gray-700 hover:bg-grayish p-1 rounded cursor-pointer"
                   onClick={() =>
                     handleSelect(
                       setSelectedGuests,
@@ -87,7 +87,7 @@ const TabNavigation = (props: Background) => {
               ].map((option) => (
                 <p
                   key={option}
-                  className="text-gray-700 hover:bg-gray-100 p-1 rounded cursor-pointer"
+                  className="text-gray-700 hover:bg-grayish p-1 rounded cursor-pointer"
                   onClick={() =>
                     handleSelect(setSelectedDate, option, setShowDateDropdown)
                   }
